@@ -1,5 +1,5 @@
 <h1>Projeto Spring Data JPA</h1>
-A proposta do projeto é desenvolver uma API RESTful com ênfase na modelagem de suas entidades referente a uma academia de ginastica.
+A proposta do projeto é desenvolver uma API RESTful com ênfase na modelagem de suas entidades referente a uma academia de ginástica.
 
 <h3>🎯 Objetivo</h3>
 <p>Conhecer e aplicar os principais conceitos de mapeamento objeto relacional (ORM) usando o <strong>Spring Data JPA</strong></p>
