@@ -14,6 +14,6 @@ public interface MatriculaRepository extends JpaRepository<Matricula, Long> {
 
     IMatriculaService findById(Long id);
 
-    List<Matricula> findAlunosMatriculadosBairro(String bairro);
+    List<Matricula> findAlunosBairro(String bairro);
 
 }

@@ -9,6 +9,6 @@ import java.util.List;
 
 @Repository
 public interface AlunoRepository extends JpaRepository<Aluno, Long> {
-    List<Aluno> findByDataDeNascimento(LocalDate localDate);
+    List<Aluno> findByDataDeNascimento(LocalDate dataDeNascimento);
 
 }
