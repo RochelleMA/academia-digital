@@ -7,10 +7,9 @@ import me.dio.academia.digital.entity.form.AlunoUpdateForm;
 import me.dio.academia.digital.infra.utils.JavaTimeUtils;
 import me.dio.academia.digital.repository.AlunoRepository;
 import me.dio.academia.digital.service.IAlunoService;
-import net.bytebuddy.asm.Advice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
+
 
 import java.time.LocalDate;
 import java.util.List;
@@ -60,15 +59,13 @@ public class AlunoServiceImpl implements IAlunoService {
 
     @Override
     public List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id) {
-
-    }
-
-    @Override
-    public List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id) {
-
         Aluno aluno = repository.findById(id).get();
 
         return aluno.getAvaliacoes();
 
+    }
+
+    public List<Aluno> getAll() {
+        return null;
     }
 }

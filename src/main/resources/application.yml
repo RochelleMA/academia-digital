@@ -2,7 +2,7 @@
 Spring:
   Datasource:
     Url: jdbc:postgresql://localhost:5432/academia?Timezone=true&serverTimezone=UTC&useLegacyDate
-    Username: Rochelle
+    Username: postgres
     password: lbm320
 
   jpa:

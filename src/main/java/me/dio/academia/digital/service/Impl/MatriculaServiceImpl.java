@@ -42,9 +42,14 @@ public class MatriculaServiceImpl implements IMatriculaService {
         }else{
             return matriculaRepository.findAlunosBairro(bairro);
         }
+
+    }
+    @Override
+    public void delete(Long id) {}
+
+    @Override
+    public Matricula get() {
         return null;
     }
 
-    @Override
-    public void delete(Long id) {}
 }
